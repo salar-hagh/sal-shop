@@ -6,6 +6,9 @@ import { ShoppingCartContextProvider } from "./context/ShoppingCartContext";
 const queryClient = new QueryClient();
 
 function App() {
+
+
+  
   return (
     <ShoppingCartContextProvider>
       <QueryClientProvider client={queryClient}>
