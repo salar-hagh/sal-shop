@@ -7,8 +7,6 @@ const queryClient = new QueryClient();
 
 function App() {
 
-
-  
   return (
     <ShoppingCartContextProvider>
       <QueryClientProvider client={queryClient}>
