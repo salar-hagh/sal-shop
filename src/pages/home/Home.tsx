@@ -8,7 +8,7 @@ function Home() {
       <h1>title</h1>
 
       <div>
-        <h3>asasa </h3>
+        <h2>asasa </h2>
 
         <img src="" alt="" />
       </div>
