@@ -1,5 +1,4 @@
-import React from "react";
-import Container from "../../components/container/Container";
+ import Container from "../../components/container/Container";
 import Footer from "../../components/footer/Footer";
 
 function Home() {

@@ -7,11 +7,18 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start:dev": "env-cmd -f dev.env npm run dev",
+    "start:stage": "env-cmd -f stage.env npm run dev",
+    "start:prod": "env-cmd -f prod.env npm run dev",
+    "build:dev": "env-cmd -f dev.env npm run build",
+    "build:stage": "env-cmd -f stage.env npm run build",
+    "build:prod": "env-cmd -f prod.env npm run build"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.35.1",
     "axios": "^1.6.8",
+    "env-cmd": "^10.1.0",
     "formik": "^2.4.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
